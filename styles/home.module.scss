@@ -32,7 +32,7 @@
     height: var(--app-height, 100vh);
     transform: translateY(-50%) scale(0.5);
     opacity: 0;
-    animation: circle 4s cubic-bezier(0.6,0.6,0,1);
+    animation: circle 4s 1.2s cubic-bezier(0.6,0.6,0,1);
     animation-fill-mode: both;
     transition: transform 1650ms ease;
 
