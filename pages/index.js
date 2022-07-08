@@ -2,6 +2,7 @@ import Image from 'next/image'
 import style from '../styles/home.module.scss'
 import Socials from '../components/socials'
 import Main from '../components/main'
+import Projects from '../components/projects'
 
 function Circle() {
   return (
@@ -31,7 +32,8 @@ export default function Home() {
        <div className="flex md:w-7/12 w-11/12 items-center h-screen">
         <div className="items-center space-y-4">
             <Main />
-            <Socials/>
+            <Socials />
+            <Projects />
           </div>
        </div>
     </div>
